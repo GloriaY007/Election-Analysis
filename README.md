@@ -11,7 +11,11 @@ We need to report:
 5. The winner of the election based on popular vote
 
 ## Resources
-- Data Source: [election_results.csv](https://github.com/GloriaY007/Election-Analysis/blob/main/election_results.csv).
+- Data Source:  [election_results.csv](https://github.com/GloriaY007/Election-Analysis/blob/main/election_results.csv).
+                [election_analysis.txt](https://github.com/GloriaY007/Election-Analysis/blob/main/Analysis/election_analysis.txt).
+                [election_analysis_county.txt](https://github.com/GloriaY007/Election-Analysis/blob/main/Analysis/election_analysis_county.txt).
+                [pyPoll.py](https://github.com/GloriaY007/Election-Analysis/blob/main/pyPoll.py).
+                [PyPoll_Challenge.py](https://github.com/GloriaY007/Election-Analysis/blob/main/PyPoll_Challenge.py).
 - Software: Python 3.9.1 64-bit, Visual Studio Code, 1.38.1
 
 ## Summary
@@ -27,15 +31,22 @@ The analysis of teh election show that:
   - Diana DeGette received "**13.8%**" of the vote and "**272,892**" number of votes
   - Raymon Anthony Doane received  "**3.1%**" of the vote and "**11,606**" number of votes
 
+- The breakdown per county was:
+  - Jefferson received "**10.5%**" of the vote and "**38,855**" number of votes
+  - Denver received "**82.8%**" of the vote and "**606,055**" number of votes
+  - Arapahoe received  "**6.7%**" of the vote and "**24,801**" number of votes
+  
 - The winner of the election was:
   - Diana DeGette who received "**13.8%**" of the vote and "**272,892**" number of votes
+
+- The county with the largest turnout for the election was:
+  - Denver which received "**82.8%**" of county cotes and "**306,055**" number of votes
   
  ## Challenge and Overview
+The project went further in the anlaysis, adding a breakdown of the data by county. For this part, the challenges were both techical and related to the instructions.
+  
+On the technical side of things, it was challenging to properly use the "**fstring**" and set up the correct "**variables**" for the county analysis. In fact, there are still missing part of codes that address the formating of the results in the text file [election_analysis_county.txt](https://github.com/GloriaY007/Election-Analysis/blob/main/Analysis/election_analysis_county.txt).
   
  ## Challenge and Summary
- 
-Automating the process using Python need to account for the below counting methods:
-- Mail In Ballots which are **hand counted**
-- Punch Card ballots which are **machine counted**
-- and, DRE machine ballots which are **computer counted**
-All three of these methods will help determine the election results and certify the election.
+ Overall, Steve and Tom can proclaim and certify that **Diana DeGette** is the winner of the recent congressional election in Colorado with "**13.8%**" of the vote and "**272,892**" number of votes. The county that had the highest turnout was **Denver**, which received "**82.8%**" of county cotes and "**306,055**" number of votes.
+
